@@ -24,7 +24,7 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              }, "src/assets"
             ],
             "styles": [
               "src/styles.css"
@@ -82,10 +82,14 @@
               {
                 "glob": "**/*",
                 "input": "public"
-              }
+              },
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/animate.css",
+              "src/assets/css/font-awesome.min.css",
+              "src/assets/css/namari-color.css",
+              "src/assets/css/style.css"
             ],
             "scripts": []
           }
